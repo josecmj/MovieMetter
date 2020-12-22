@@ -1,5 +1,5 @@
 package com.josecmj.core.domain
 
-class Rating(desc: String, stars: Int) {
+data class Rating(val id:Int, val movieId:Int, val desc: String, val stars: Int) {
 
 }
